@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = (props) => {
     return(
-        null
+        <div>Hello from Nav.jsx!!</div>
     );
 }
 

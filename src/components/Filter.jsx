@@ -2,7 +2,7 @@ import React from 'react';
 
 const Filter = (props) => {
     return(
-        null
+        <div>Hello from Filter.jsx!!</div>
     );
 }
 
