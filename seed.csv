@@ -24,7 +24,7 @@ id,first_name,last_name,photo,company_id,up_votes,total_votes
 22,"Trevor","Cannon","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/trevor_42.jpg",0,0,0
 23,"Tyler","Stendara","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/tyler_42.jpg",0,0,0
 24,"Zona","Gilreath","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/zona_42.jpg",0,0,0
-25,"Arohan","Dutt","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/arohan_42.jpg",0,0,0
+25,"Arohan","Dutt","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/arohan_43.jpg",1,0,0
 26,"Jeff","Salinas","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/jeff_43.jpg",1,0,0
 27,"John","Connolly","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/john_43.jpg",1,0,0
 28,"Sean","McCarthy","https://s3.us-east-2.amazonaws.com/mvp-rank.er/student-images/sean_43.jpg",1,0,0

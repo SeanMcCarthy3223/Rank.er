@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Employee = (props) => {
+    console.log(props.employee);
     return(
-        null
+        <div>{props.employee.first_name}</div>
     );
 }
 

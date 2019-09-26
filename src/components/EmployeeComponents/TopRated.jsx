@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopRated = (props) => {
     return(
-        null
+        <div>Top Three Here</div>
     );
 }
 

@@ -10,12 +10,13 @@ const EmployeeView = (props) => {
             <div>
                 {props.displayAll ? 
                 <div>
-                    Show All
+                    <AllEmployees employees={props.employees}/>
                 </div> :
                 <div>
-                    Show Top and Bottom Three
+                    <TopRated currentTop={props.currentTop}/>
+                    <BottomRated currentBottom={props.currentBottom}/>
                 </div>
-            }
+                }
             </div>
         </div>
     );
