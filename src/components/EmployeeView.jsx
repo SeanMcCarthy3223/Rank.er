@@ -5,19 +5,19 @@ import BottomRated from './EmployeeComponents/BottomRated.jsx'
 
 const EmployeeView = (props) => {
     return(
-        <div>
-            <div>Hello from EmployeeView.jsx!!</div>
+        <div id="employee-main">
+            {props.displayAll ? 
             <div>
-                {props.displayAll ? 
-                <div>
-                    <AllEmployees employees={props.employees}/>
-                </div> :
-                <div>
-                    <TopRated currentTop={props.currentTop}/>
-                    <BottomRated currentBottom={props.currentBottom}/>
-                </div>
-                }
+                <div>All Ranked Colors:</div>
+                <AllEmployees employees={props.employees}/>
+            </div> :
+            <div>
+                <div>Top 3 Ranked Colors:</div>
+                <TopRated currentTop={props.currentTop}/>
+                <div>Bottom 3 Ranked Colors:</div>
+                <BottomRated currentBottom={props.currentBottom}/>
             </div>
+            }
         </div>
     );
 }

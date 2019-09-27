@@ -16,11 +16,15 @@ db.connect((err) => {
 });
 
 app.get('/allEmployees', (req, res) => {
-    db.query(`SELECT employees.id, employees.first_name, employees.last_name, employees.photo, companies.name, employees.up_votes, employees.total_votes FROM employees, companies WHERE employees.company_id = companies.id AND companies.name = "${req.query.company}";`,
+    db.query(`SELECT * from contestants;`,
     (err, rows, fields) => {
         if(err) res.status(404).send(err);
         res.status(200).send(rows);
     });
+});
+
+app.put('/updateLikes', (req, res) => {
+
 });
 
 app.listen(port, () => console.log(`listening from port: ${port}`));

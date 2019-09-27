@@ -1,22 +1,13 @@
-DROP DATABASE IF EXISTS rankerMVP;
+DROP DATABASE IF EXISTS colors;
 
-CREATE DATABASE rankerMVP;
+CREATE DATABASE colors;
 
-USE rankerMVP;
+USE colors;
 
-CREATE TABLE Companies (
+CREATE TABLE contestants (
     id INT PRIMARY KEY,
-    name VARCHAR(45)
-);
-
-CREATE TABLE Employees (
-    id INT PRIMARY KEY,
-    first_name VARCHAR(25),
-    last_name VARCHAR(35),
-    photo TEXT,
-    company_id INT,
+    name TEXT,
+    color_code TEXT,
     up_votes INT,
-    total_votes INT,
-    FOREIGN KEY (company_id) REFERENCES Companies(id)
+    total_votes INT
 );
-

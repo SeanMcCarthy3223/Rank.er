@@ -1,0 +1,22 @@
+id,name,color_code,up_votes,total_votes
+0,"red","#FF0000",0,0
+1,"orange","#FF5733",0,0
+2,"yellow","#FFFF00",0,0
+3,"blue","#3336FF",0,0
+4,"indigo","#4B0082",0,0
+5,"violet","#800080",0,0
+6,"rebecca purple","#663399",0,0
+7,"black","#000000",0,0
+8,"white","#FFFFFF",0,0
+9,"silver","#C0C0C0",0,0
+10,"blanched almond","#FFEBCD",0,0
+11,"lime green","#00FF00",0,0
+12,"emerald","#50C878",0,0
+13,"salmon","#FF8C69",0,0
+14,"light purple","#B19CD9",0,0
+15,"pink","#FF69B4",0,0
+16,"gray","#808080",0,0
+17,"aqua","#00FFFF",0,0
+18,"navy","#000080",0,0
+19,"teal","#008080",0,0
+20,"olive","#808000",0,0
